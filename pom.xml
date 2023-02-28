@@ -42,18 +42,24 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+<<<<<<< HEAD
             <version>1.18.24</version>
+=======
+>>>>>>> 8a801a7b30dd52fbf3edc8d4b91f95559c50f973
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+<<<<<<< HEAD
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
+=======
+>>>>>>> 8a801a7b30dd52fbf3edc8d4b91f95559c50f973
     </dependencies>
 
     <build>
