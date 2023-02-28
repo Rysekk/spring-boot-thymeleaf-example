@@ -49,13 +49,8 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
-<<<<<<< HEAD
 //import lombok.Getter;
 //import lombok.Setter;
-=======
-import lombok.Getter;
-import lombok.Setter;
->>>>>>> 8a801a7b30dd52fbf3edc8d4b91f95559c50f973
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 import org.springframework.validation.annotation.Validated;
@@ -64,7 +59,6 @@ import org.springframework.validation.annotation.Validated;
 @Entity
 @Table(name = "contact")
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
-<<<<<<< HEAD
 //@Getter
 //@Setter
 public class Contact implements Serializable {
@@ -142,14 +136,7 @@ public class Contact implements Serializable {
 	}
 
 	private static final long serialVersionUID = 4048798961366546485L;
-=======
-@Getter
-@Setter
-public class Contact implements Serializable {
-
-    private static final long serialVersionUID = 4048798961366546485L;
->>>>>>> 8a801a7b30dd52fbf3edc8d4b91f95559c50f973
-
+	
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
